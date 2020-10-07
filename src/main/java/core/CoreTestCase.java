@@ -1,3 +1,5 @@
+package core;
+
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import junit.framework.TestCase;
@@ -13,7 +15,7 @@ public class CoreTestCase extends TestCase {
     // for run Mac
     // private static String PathApk = "/Users/evgeniy_g/coures/project/JavaAppiumMac/apks/org.wikipedia.apk";
     // for run Windows
-    private static String PathApk = "D:\\[courses]\\project\\\\java_appium_android\\apks\\org.wikipedia.apk";
+    private static String PathApk = "D:\\[courses]\\project\\\\java_appium_android_2020\\apks\\org.wikipedia.apk";
 
     @Override
     protected void setUp() throws Exception {
